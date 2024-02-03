@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "916958106433",
+    "project_id": "carpark-uc",
+    "storage_bucket": "carpark-uc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916958106433:android:d148ccafc558df90c987c0",
+        "android_client_info": {
+          "package_name": "com.example.carpark_uc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlZG3s_fNFV94f0QpUMf3tZLO-W4zn3eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
