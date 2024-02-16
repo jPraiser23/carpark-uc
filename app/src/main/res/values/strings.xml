@@ -6,4 +6,6 @@
     <string name="register">Register</string>
     <string name="click_to_login">Click to login</string>
     <string name="click_to_register">Click to Register</string>
+    <string name="select_garage">Select Garage</string>
+    <string name="ccm">CCM</string>
 </resources>
