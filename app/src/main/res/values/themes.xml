@@ -2,7 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Carparkuc" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#000000</item> <!-- Set primary color to black -->
+        <item name="colorAccent">#000000</item> <!-- Set accent color to black -->
     </style>
 
     <style name="Theme.Carparkuc" parent="Base.Theme.Carparkuc" />
