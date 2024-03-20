@@ -25,7 +25,9 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         List<String> items = new LinkedList<>();
-        items.add("Testing");
+        items.add("CCM");
+        items.add("Garage 2");
+        items.add("Garage 3");
 
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

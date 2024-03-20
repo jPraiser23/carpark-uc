@@ -9,4 +9,7 @@
     <string name="select_garage">Select Garage</string>
     <string name="ccm">CCM</string>
     <string name="logout">Logout</string>
+    <string name="select">Select</string>
+    <string name="ccm_floor_1">CCM Floor 1</string>
+    <string name="next_floor">Next Floor</string>
 </resources>

@@ -21,13 +21,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/ccm" />
+            android:text="@string/ccm"
+            android:padding="10dp"
+            />
         <Button
             android:id="@+id/select"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select"
-            android:layout_gravity="center_vertical"/>
+            android:text="@string/select"
+            android:layout_gravity="center_vertical"
+            />
 
     </LinearLayout>
 

@@ -1,17 +1,12 @@
 package com.example.carpark_uc;
 
-import static androidx.core.content.ContextCompat.startActivity;
-
-import android.content.Context;
 import android.content.Intent;
-import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -48,9 +43,10 @@ class GarageVH extends RecyclerView.ViewHolder{
     public GarageVH(@NonNull View itemView) {
         super(itemView);
         textView = itemView.findViewById(R.id.text);
+
         itemView.findViewById(R.id.select).setOnClickListener(view ->{
             //Link to next page-->
-            Intent intent = new Intent(itemView.getContext(), FirstGarge.class);
+            Intent intent = new Intent(itemView.getContext(), FirstGarage.class);
             itemView.getContext().startActivity(intent);
         });
     }
