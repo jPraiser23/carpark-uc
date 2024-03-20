@@ -11,47 +11,61 @@
 
     <Button
         android:id="@+id/backButton"
-        android:layout_width="189dp"
-        android:layout_height="58dp"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
         android:text="Back"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText"
 
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Home"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/nextFloorButton"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/nextFloorButton"
-        android:layout_width="187dp"
-        android:layout_height="55dp"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
         android:text="@string/next_floor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/GarageLayout"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_height="680dp"
+
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/first_garage_floor1"
-        tools:ignore="ContentDescription"
-        tools:layout_editor_absoluteX="-39dp" />
-
-
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/garage1floor1layout"
+        tools:ignore="ContentDescription" />
+<!--PARKING PLACES BUTTON-->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace1"
         android:layout_width="40dp"
         android:layout_height="23dp"
+        android:layout_marginStart="216dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.623"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -60,27 +74,25 @@
         android:layout_height="23dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.73"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace3"
         android:layout_width="40dp"
         android:layout_height="23dp"
+        android:layout_marginTop="104dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.221"
         tools:ignore="MissingConstraints" />
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace4"
@@ -88,13 +100,10 @@
         android:layout_height="23dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace3" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace5"
@@ -102,13 +111,10 @@
         android:layout_height="23dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace4"
+/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace6"
@@ -116,13 +122,8 @@
         android:layout_height="23dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace5" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace7"
@@ -130,13 +131,8 @@
         android:layout_height="23dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace6" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace8"
@@ -144,13 +140,8 @@
         android:layout_height="23dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.372"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace7" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace9"
@@ -158,35 +149,35 @@
         android:layout_height="23dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402"
-        tools:ignore="MissingConstraints" />
-
-
-
-
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace8" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="680dp"
         android:text="@string/ccm_floor_1"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="74dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
 
     <TextView
         android:id="@+id/availableSpaces"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Available Spaces: 17"
+        android:textColor="@color/white"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

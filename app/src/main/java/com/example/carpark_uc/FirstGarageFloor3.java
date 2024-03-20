@@ -28,7 +28,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class FirstGarageFloor2 extends AppCompatActivity implements View.OnClickListener{
+public class FirstGarageFloor3 extends AppCompatActivity implements View.OnClickListener{
     Button backButton;
     Button nextButton;
     Button homeButton;
@@ -36,14 +36,13 @@ public class FirstGarageFloor2 extends AppCompatActivity implements View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first_garage_floor2);
+        setContentView(R.layout.activity_first_garage_floor3);
         //ActionBar
 
         ActionBar actionBar = getSupportActionBar();
         if(actionBar != null){
             actionBar.hide();
         }
-
         homeButton = findViewById(R.id.homeButton);
         backButton = findViewById(R.id.backButton);
         nextButton = findViewById(R.id.nextFloorButton);
@@ -61,7 +60,7 @@ public class FirstGarageFloor2 extends AppCompatActivity implements View.OnClick
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),FirstGarageFloor3.class);
+                Intent intent = new Intent(getApplicationContext(),FirstGarage.class);
                 startActivity(intent);
                 finish();
             }
@@ -70,7 +69,7 @@ public class FirstGarageFloor2 extends AppCompatActivity implements View.OnClick
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),FirstGarage.class);
+                Intent intent = new Intent(getApplicationContext(),FirstGarageFloor2.class);
                 startActivity(intent);
                 finish();
             }

@@ -12,4 +12,6 @@
     <string name="select">Select</string>
     <string name="ccm_floor_1">CCM Floor 1</string>
     <string name="next_floor">Next Floor</string>
+    <string name="ccm_floor_3">CCM Floor 3</string>
+    <string name="ccm_floor_2">CCM Floor 2</string>
 </resources>

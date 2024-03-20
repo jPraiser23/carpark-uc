@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".FirstGarageFloor3">
+
+  <Button
+      android:id="@+id/backButton"
+      android:layout_width="135dp"
+      android:layout_height="60dp"
+      android:text="Back"
+
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:ignore="HardcodedText" />
+
+
+  <Button
+      android:id="@+id/homeButton"
+      android:layout_width="100dp"
+      android:layout_height="60dp"
+      android:text="Home"
+
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/nextFloorButton"
+      app:layout_constraintStart_toEndOf="@+id/backButton"
+      tools:ignore="HardcodedText" />
+
+  <Button
+      android:id="@+id/nextFloorButton"
+      android:layout_width="135dp"
+      android:layout_height="60dp"
+      android:text="@string/next_floor"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <!--PARKING PLACES BUTTON-->
+  <ImageView
+      android:id="@+id/GarageLayout"
+
+      android:layout_width="match_parent"
+      android:layout_height="680dp"
+
+      android:layout_alignParentTop="true"
+      android:scaleType="fitXY"
+
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/garage1floor3layout"
+      tools:ignore="ContentDescription" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/parkingPlace1"
+      android:layout_width="40dp"
+      android:layout_height="23dp"
+      android:layout_marginStart="216dp"
+      android:background="#00FF00"
+      app:cornerRadius="0dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="MissingConstraints" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/parkingPlace2"
+      android:layout_width="40dp"
+      android:layout_height="23dp"
+      android:background="#00FF00"
+      app:cornerRadius="0dp"
+      app:layout_constraintStart_toEndOf="@+id/parkingPlace1"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="MissingConstraints" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/parkingPlace3"
+      android:layout_width="40dp"
+      android:layout_height="23dp"
+      android:layout_marginTop="104dp"
+      android:background="#00FF00"
+      app:cornerRadius="0dp"
+
+      android:insetTop="0dp"
+      android:insetBottom="0dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.221"
+      tools:ignore="MissingConstraints" />
+
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/parkingPlace4"
+      android:layout_width="40dp"
+      android:layout_height="23dp"
+      android:background="#00FF00"
+      app:cornerRadius="0dp"
+      android:insetTop="0dp"
+      android:insetBottom="0dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/parkingPlace3" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/parkingPlace5"
+      android:layout_width="40dp"
+      android:layout_height="23dp"
+      android:background="#00FF00"
+      app:cornerRadius="0dp"
+
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/parkingPlace4"
+      />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/parkingPlace6"
+      android:layout_width="40dp"
+      android:layout_height="23dp"
+      android:background="#00FF00"
+      app:cornerRadius="0dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/parkingPlace5" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/parkingPlace7"
+      android:layout_width="40dp"
+      android:layout_height="23dp"
+      android:background="#00FF00"
+      app:cornerRadius="0dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/parkingPlace6" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/parkingPlace8"
+      android:layout_width="40dp"
+      android:layout_height="23dp"
+      android:background="#00FF00"
+      app:cornerRadius="0dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/parkingPlace7" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/parkingPlace9"
+      android:layout_width="40dp"
+      android:layout_height="23dp"
+      android:background="#00FF00"
+      app:cornerRadius="0dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/parkingPlace8" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="680dp"
+      android:text="CCM Floor 3 "
+      app:layout_constraintTop_toTopOf="parent"
+      tools:layout_editor_absoluteX="74dp"
+      android:textColor="@color/white"
+      android:textAlignment="center"
+      />
+
+  <TextView
+      android:id="@+id/availableSpaces"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:text="Available Spaces: 17"
+      android:textColor="@color/white"
+      android:textAlignment="center"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView2"
+
+      />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

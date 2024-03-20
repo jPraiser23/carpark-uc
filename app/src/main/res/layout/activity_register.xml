@@ -18,18 +18,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
         />
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:padding="5dp">
+        android:padding="5dp"
+
+        >
+
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
             android:hint="@string/email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:minHeight="60dp"
             android:background="@drawable/text_input_layout_background"/>
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -56,6 +61,8 @@
         android:layout_width="wrap_content"
         android:text="@string/register"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/black"
         />
     <TextView
         android:textStyle="bold"
@@ -64,6 +71,7 @@
         android:layout_marginTop="20dp"
         android:id="@+id/loginNow"
         android:text="@string/click_to_login"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />

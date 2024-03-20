@@ -1,5 +1,6 @@
 package com.example.carpark_uc;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -24,16 +25,24 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        //ActionBar
+
+        ActionBar actionBar = getSupportActionBar();
+        if(actionBar != null){
+            actionBar.hide();
+        }
+
         List<String> items = new LinkedList<>();
         items.add("CCM");
         items.add("Garage 2");
-        items.add("Garage 3");
 
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         GarageListAdapter adapter = new GarageListAdapter(items);
         recyclerView.setAdapter(adapter);
 
+
+        //Logout
         mAuth = FirebaseAuth.getInstance();
         BtnLogout = findViewById(R.id.logoutBtn);
         BtnLogout.setOnClickListener(new View.OnClickListener() {
