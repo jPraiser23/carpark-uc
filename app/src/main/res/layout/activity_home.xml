@@ -14,7 +14,10 @@
         android:id="@+id/logoutBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
         android:text="@string/logout"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
         />
 
 
@@ -36,6 +39,7 @@ android:id="@+id/recyclerview"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:layout_weight="1"
+    android:foregroundTint="#FFFFFF"
     />
 
     </LinearLayout>

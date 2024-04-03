@@ -48,7 +48,8 @@
             android:hint="@string/password"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/text_input_layout_background"/>
+            android:background="@drawable/text_input_layout_background"
+            android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
     <ProgressBar
         android:id="@+id/progressBar"
@@ -59,10 +60,9 @@
     <Button
         android:id="@+id/btn_register"
         android:layout_width="wrap_content"
-        android:text="@string/register"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:background="@color/black"
+        android:backgroundTint="#000000"
+        android:text="@string/register" />
         />
     <TextView
         android:textStyle="bold"
@@ -71,8 +71,8 @@
         android:layout_marginTop="20dp"
         android:id="@+id/loginNow"
         android:text="@string/click_to_login"
-        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         />
 </LinearLayout>
