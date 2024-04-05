@@ -39,6 +39,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!--PARKING PLACES BUTTON-->
+
+
     <ImageView
         android:id="@+id/GarageLayout"
 
@@ -50,18 +53,18 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.019"
         app:srcCompat="@drawable/garage1floor1layout"
         tools:ignore="ContentDescription" />
-<!--PARKING PLACES BUTTON-->
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace1"
-        android:layout_width="40dp"
+        android:layout_width="43dp"
         android:layout_height="23dp"
-        android:layout_marginStart="216dp"
+        android:layout_marginStart="232dp"
         android:background="#00FF00"
         app:cornerRadius="0dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,25 +86,23 @@
         android:layout_width="40dp"
         android:layout_height="23dp"
         android:layout_marginTop="104dp"
-        android:background="#00FF00"
-        app:cornerRadius="0dp"
 
+        android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
+        app:cornerRadius="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.221"
         tools:ignore="MissingConstraints" />
-
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace4"
         android:layout_width="40dp"
         android:layout_height="23dp"
         android:background="#00FF00"
-        app:cornerRadius="0dp"
         android:insetTop="0dp"
         android:insetBottom="0dp"
+        app:cornerRadius="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/parkingPlace3" />
 
@@ -109,12 +110,11 @@
         android:id="@+id/parkingPlace5"
         android:layout_width="40dp"
         android:layout_height="23dp"
+
         android:background="#00FF00"
         app:cornerRadius="0dp"
-
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/parkingPlace4"
-/>
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace4" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace6"
@@ -152,28 +152,1200 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/parkingPlace8" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace10"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace9" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace11"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace10" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace12"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace11" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace13"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="@+id/GarageLayout"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace12" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace14"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace13" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace15"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace14" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace16"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace15" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace17"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace16" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace18"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace17" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace19"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace18" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace20"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace19" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace21"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace20" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace22"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace21" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace23"
+        android:layout_width="40dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace22" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace24"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="113dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace25"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace24" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace26"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace25" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace27"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace26" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace28"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace27" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace29"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace28" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace30"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace29" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace31"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace30" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace32"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace31" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace33"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace32" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace34"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace33" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace35"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace34" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace36"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace35" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace37"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace36" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace38"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace37" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace39"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace38" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace40"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace39" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace41"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace40" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace42"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace41" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace43"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace42" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace44"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        tools:layout_editor_absoluteY="104dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace45"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace44" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace46"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace45" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace47"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace46" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace48"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace47" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace49"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace48" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace50"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace49" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace51"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace50" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace52"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace51" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace53"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace52" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace54"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace53" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace55"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace54" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace56"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace55" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace57"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace56" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace58"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace57" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace59"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace58" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace60"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace59" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace61"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace60" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace62"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace24"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace61" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace63"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="104dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace64"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace63"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace65"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace64"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace66"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace65"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace67"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace66"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace68"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace67"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace69"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace68"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace70"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace69"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace71"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace70"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace72"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace71"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace73"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace72"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace74"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace73"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace75"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace74"
+        tools:layout_editor_absoluteX="232dp"
+        tools:ignore="MissingConstraints,TooManyViews" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace76"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace75"
+        tools:layout_editor_absoluteX="234dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace77"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace76"
+        tools:layout_editor_absoluteX="234dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace78"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace77"
+        tools:layout_editor_absoluteX="234dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace79"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace78"
+        tools:layout_editor_absoluteX="234dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace80"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace79"
+        tools:layout_editor_absoluteX="234dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace81"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace80"
+        tools:layout_editor_absoluteX="234dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace82"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace83"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace82" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace84"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace83" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace85"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace84" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace86"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace85" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace87"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace86" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace88"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace87" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace89"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace88" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace90"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace89" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace91"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace90" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace92"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace91" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace93"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace92" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace94"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace93" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace95"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace94" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace96"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace95" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace97"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace96" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace98"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace97" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace99"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace98" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace100"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace99" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace101"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toEndOf="@+id/parkingPlace63"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace100" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace102"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace103"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace102" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace104"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace103" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace105"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace104" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace106"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace105" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace107"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace106" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace108"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace107" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace109"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace108" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace110"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace109" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace111"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace110" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace112"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace111" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace113"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace112" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace114"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace113" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace115"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace114" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace116"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace115" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace117"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace116" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace118"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace117" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace119"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace118" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace120"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace119" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace121"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace120" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace122"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#0000FF"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="547dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace123"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:background="#0000FF"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingPlace122" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace124"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#0000FF"
+        app:cornerRadius="0dp"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace125"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/parkingPlace124"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace126"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/parkingPlace125"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace127"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/parkingPlace126"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace128"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/parkingPlace127"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace129"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/parkingPlace128"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace130"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/parkingPlace129"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace131"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/parkingPlace130"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace132"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/parkingPlace131"
+        tools:layout_editor_absoluteY="647dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace133"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parkingPlace134"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:background="#00FF00"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/parkingPlace133"
+        tools:layout_editor_absoluteY="647dp" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="680dp"
+        android:layout_marginTop="720dp"
         android:text="@string/ccm_floor_1"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="74dp"
-        android:textColor="@color/white"
         android:textAlignment="center"
-        />
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:id="@+id/availableSpaces"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="Available Spaces: 17"
-        android:textColor="@color/white"
         android:textAlignment="center"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
 
