@@ -152,1638 +152,1868 @@
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="242dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="242dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace8"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="263dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="263dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace9"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="284dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="284dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace10"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="305dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="305dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace11"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="326dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="326dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace12"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="347dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="347dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace13"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="368dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="368dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace14"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginTop="389dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="389dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace15"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="408dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="408dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace16"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="429dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="429dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace17"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="450dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="450dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace18"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="471dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="471dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace19"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="492dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="492dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace20"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="513dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="513dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace21"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="534dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="534dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace22"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="555dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="555dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace23"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="576dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="576dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace24"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginTop="597dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="597dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace25"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="559dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="559dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace26"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="539dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="539dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace27"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="518dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="518dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace28"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="497dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="497dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace29"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="476dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="476dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace30"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="455dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="455dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace31"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="434dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="434dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace32"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="413dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="413dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace33"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="392dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="392dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace34"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="371dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="371dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace35"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="350dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="350dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace36"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="329dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="329dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace37"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="308dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="308dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace38"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="288dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="288dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace39"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="267dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="267dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace40"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="246dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="246dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace41"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="225dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="225dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace42"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="204dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="204dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace43"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="183dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="183dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace44"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="162dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="162dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace45"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="141dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="141dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace46"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="111dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="111dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace47"
         android:layout_width="38dp"
         android:layout_height="22dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="131dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="131dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace48"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="153dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="153dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace49"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="173dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="173dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace50"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="193dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="193dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace51"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="214dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="214dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace52"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="235dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="235dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace53"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="256dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="256dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace54"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="277dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="277dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace55"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="298dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace56"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="319dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="319dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace57"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="340dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="340dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace58"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="361dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace59"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="382dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="382dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace60"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="403dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="403dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace61"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="424dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="424dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace62"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="445dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="445dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace63"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="466dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="466dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace64"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="487dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="487dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace65"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="508dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace66"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="529dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="529dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace67"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="508dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace68"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="487dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="487dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace69"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="466dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="466dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace70"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="445dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="445dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace71"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="424dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="424dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace72"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="403dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="403dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace73"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="382dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="382dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace74"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="361dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace75"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="340dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="340dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace76"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="319dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="319dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace77"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="298dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace78"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="277dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="277dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace79"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="256dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="256dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace80"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="235dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="235dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace81"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="215dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="215dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace82"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="195dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="195dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace83"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="173dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="173dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace84"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="153dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="153dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace85"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="131dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="131dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace86"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="90dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="90dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace87"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="111dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="111dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace88"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="131dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="131dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace89"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="153dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="153dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace90"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="173dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="173dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace91"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="195dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="195dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace92"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="215dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="215dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace93"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="236dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="236dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace94"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="257dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="257dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace95"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="278dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="278dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace96"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="299dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="299dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace97"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="320dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="320dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace98"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="341dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="341dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace99"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="361dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace100"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="382dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="382dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace101"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="402dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="402dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace102"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="423dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="423dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace103"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="444dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="444dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace104"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="465dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="465dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace105"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="486dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="486dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace106"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="507dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="507dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace107"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="486dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="486dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace108"
         android:layout_width="38dp"
         android:layout_height="17dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="468dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="468dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace109"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="447dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="447dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace110"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="426dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="426dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace111"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="406dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="406dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace112"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="385dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="385dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace113"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="366dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="366dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace114"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="347dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="347dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace115"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="326dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="326dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace116"
         android:layout_width="38dp"
         android:layout_height="19dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="307dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="307dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace117"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="286dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="286dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace118"
         android:layout_width="38dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="266dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="266dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace119"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="245dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="245dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace120"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="224dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace121"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="204dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="204dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace122"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="183dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="183dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace123"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="162dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="162dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace124"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="141dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="141dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace125"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="120dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="120dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace126"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="99dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="99dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace127"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="78dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="78dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace128"
         android:layout_width="38dp"
         android:layout_height="21dp"
 
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="57dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="57dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace129"
         android:layout_width="37dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="172dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace130"
         android:layout_width="37dp"
         android:layout_height="20dp"
 
+        android:layout_marginStart="133dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace131"
         android:layout_width="24dp"
         android:layout_height="33dp"
 
+        android:layout_marginStart="49dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace132"
         android:layout_width="24dp"
         android:layout_height="33dp"
 
+        android:layout_marginStart="25dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace133"
@@ -1794,100 +2024,114 @@
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace134"
         android:layout_width="24dp"
         android:layout_height="33dp"
 
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="647dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="647dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace135"
         android:layout_width="24dp"
         android:layout_height="33dp"
 
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="647dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="647dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace136"
         android:layout_width="24dp"
         android:layout_height="33dp"
 
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="647dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="647dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace137"
         android:layout_width="24dp"
         android:layout_height="33dp"
 
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="647dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="647dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace138"
         android:layout_width="23dp"
         android:layout_height="33dp"
 
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="647dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="647dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace139"
         android:layout_width="24dp"
         android:layout_height="33dp"
 
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="647dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="647dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/parkingPlace140"
         android:layout_width="24dp"
         android:layout_height="33dp"
 
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="647dp"
         android:background="#00FF00"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         app:cornerRadius="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="276dp"
-        tools:layout_editor_absoluteY="647dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
